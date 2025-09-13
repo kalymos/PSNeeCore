@@ -1,0 +1,24 @@
+{
+  "packages": [
+    {
+      "name": "kalymnos",
+      "platforms": [
+        {
+          "name": "PSNeeCore",
+          "architecture": "psneecore",
+          "version": "1.1.1",
+          "category": "Contributed",
+          "url": "https://kalymos.github.io/PSNeeCore/release/psneecore-1.1.1.zip",
+          "archiveFileName": "psneecore-1.1.1.zip",
+          "checksum": "SHA-256:765c80767ca75e57bec9cc4c0db3d2557b2db5687f542314040557ea59e6ab33",
+          "size": 26774,
+          "boards": [{
+            "name": "PSNee Board"
+          }],
+          "toolsDependencies": []
+        }
+      ],
+      "tools": []
+    }
+  ]
+}
