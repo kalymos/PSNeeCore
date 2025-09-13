@@ -19,7 +19,7 @@ ZIP_PATH := $(BUILD_DIR)/$(ZIP_NAME)
 INDEX_FILE := $(BUILD_DIR)/package_$(ARCH)_index.json
 
 # URL vers le ZIP hébergé (ex : GitHub Pages)
-BASE_URL := https://github.com/kalymos/PSNeeCore/tree/main/$(BUILD_DIR)/$(ZIP_NAME)
+BASE_URL := https://kalymos.github.io/PSNeeCore/$(BUILD_DIR)/$(ZIP_NAME)
 
 # ------------------- Règles Make -------------------
 
