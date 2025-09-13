@@ -12,12 +12,13 @@ ATtinyX5.name=ATtiny25/45/85
 
 ATtinyX5.upload.tool=arduino:avrdude
 ATtinyX5.upload.low_fuses=0xe2
+ATtinyX5.upload.speed=19200
 
 ATtinyX5.program.tool=arduino:avrdude
 ATtinyX5.program.unlock_bits=0xff
 ATtinyX5.program.lock_bits=0xff
 
-ATtinyX5.build.core=arduino:arduino
+ATtinyX5.build.core=psneecor:avr
 ATtinyX5.build.board=attiny
 ATtinyX5.build.variant=tiny8
 ATtinyX5.build.f_cpu=8000000L
@@ -51,12 +52,13 @@ ATtinyX5.menu.variant.attiny85.build.mcu=attiny85
 ATtinyX8.name=ATtiny88/48
 
 ATtinyX8.upload.tool=arduino:avrdude
+ATtinyX8.upload.speed=19200
 
 ATtinyX8.program.tool=arduino:avrdude
 ATtinyX8.program.unlock_bits=0xff
 ATtinyX8.program.lock_bits=0xff
 
-ATtinyX8.build.core=arduino:arduino
+ATtinyX8.build.core=psneecor:avr
 ATtinyX8.build.board=AVR_ATTINYX8
 ATtinyX8.build.variant=tinyx8
 ATtinyX8.build.f_cpu=16000000L
@@ -92,7 +94,7 @@ ATtinyX8.menu.fuses.NoBIOSpatch.upload.low_fuses=0xff
 328.upload.maximum_size=30720
 328.upload.low_fuses=0xee
 
-328.build.core=arduino:arduino
+328.build.core=psneecor:avr
 328.build.board=AVR_ATmega328
 328.build.f_cpu=16000000L
 
@@ -123,7 +125,7 @@ ATtinyX8.menu.fuses.NoBIOSpatch.upload.low_fuses=0xff
 168.upload.maximum_data_size=1024
 168.upload.low_fuses=0xee
 
-168.build.core=arduino:arduino
+168.build.core=psneecor:avr
 168.build.board=AVR_ATmega168
 168.build.f_cpu=16000000L
 
@@ -179,6 +181,7 @@ ATtinyX8.menu.fuses.NoBIOSpatch.upload.low_fuses=0xff
 32u4.upload.maximum_size=30720
 32u4.upload.use_1200bps_touch=true
 32u4.upload.wait_for_upload_port=true
+32u4.upload.speed=57600
 32u4.upload.low_fuses=0xee
 
 
@@ -189,7 +192,7 @@ ATtinyX8.menu.fuses.NoBIOSpatch.upload.low_fuses=0xff
 32u4.build.pid=0x8037
 32u4.build.usb_product="Arduino Micro"
 32u4.build.board=AVR_MICRO
-32u4.build.core=arduino:arduino
+32u4.build.core=psneecor:avr
 32u4.build.variant=micro
 32u4.build.extra_flags={build.usb_flags}
 
