@@ -6,15 +6,18 @@
         {
           "name": "PSNeeCore",
           "architecture": "psneecore",
-          "version": "1.3.3",
+          "version": "1.3.4",
           "category": "Contributed",
-          "url": "https://kalymos.github.io/PSNeeCore/release/psneecore-1.3.3.zip",
-          "archiveFileName": "psneecore-1.3.3.zip",
-          "checksum": "SHA-256:d58c83ee8426ee4175a2f9fe3858d405b23a175bd90f3e4d713cc9beef298236",
-          "size": 27141,
-          "boards": [{
-            "name": "PSNee Board"
-          }],
+          "url": "https://kalymos.github.io/PSNeeCore/release/psneecore-1.3.4.zip",
+          "archiveFileName": "psneecore-1.3.4.zip",
+          "checksum": "SHA-256:367aaeb0aae79fea9b1fa42f8ad7e1ec67808708afd5678286952b4f5b75e68e",
+          "size": 26932,
+          "boards": [
+            {"name": "ATmega328"},
+            {"name": "ATmega168"},
+            {"name": "ATtiny85"},
+            {"name": "ATtiny45"}
+          ],
           "toolsDependencies": []
         }
       ],
