@@ -31,8 +31,10 @@ prepare:
 	mkdir -p $(BUILD_DIR)
 
 zip: prepare
-	@echo "📦 Création de l'archive $(ZIP_NAME) …"
-	zip -r $(ZIP_PATH) $(CORE_DIR)
+	@echo "📦 Création de l'archive $(ZIP_NAME) avec 'avr/' à la racine …"
+	mkdir -p $(BUILD_DIR)
+	cd $(CORE_DIR)/.. && zip -r "$(abspath $(ZIP_PATH))" avr
+
 
 json: zip
 	@echo "🧾 Génération du fichier JSON d’index pour l’IDE Arduino…"
