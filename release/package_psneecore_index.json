@@ -10,8 +10,8 @@
           "category": "Contributed",
           "url": "https://kalymos.github.io/PSNeeCore/release/psneecore-1.2.0.zip",
           "archiveFileName": "psneecore-1.2.0.zip",
-          "checksum": "SHA-256:c27fe383fd41794a96747785cf9cef855bf1e02248e62b62eb1f7e39875a3f93",
-          "size": 26374,
+          "checksum": "SHA-256:41658e02be2dd8a7fa396b9b68eba8133b33b7b56901c26781eb2efedd29b7c1",
+          "size": 26369,
           "boards": [{
             "name": "PSNee Board"
           }],
