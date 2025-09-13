@@ -6,12 +6,12 @@
         {
           "name": "PSNeeCore",
           "architecture": "psneecore",
-          "version": "1.2.0",
+          "version": "1.3.0",
           "category": "Contributed",
-          "url": "https://kalymos.github.io/PSNeeCore/release/psneecore-1.2.0.zip",
-          "archiveFileName": "psneecore-1.2.0.zip",
-          "checksum": "SHA-256:38f8c83223718140dad22817b8e17844f6745272d75ad5557e3f335955f8634b",
-          "size": 26369,
+          "url": "https://kalymos.github.io/PSNeeCore/release/psneecore-1.3.0.zip",
+          "archiveFileName": "psneecore-1.3.0.zip",
+          "checksum": "SHA-256:21331a01d329840c4ddcdd255d41a6bae051e6a1f76a13fb5e9e9e43e13d52df",
+          "size": 27124,
           "boards": [{
             "name": "PSNee Board"
           }],
