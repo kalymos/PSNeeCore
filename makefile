@@ -31,13 +31,13 @@ prepare:
 	mkdir -p $(BUILD_DIR)
 
 zip: prepare
-	@echo "📦 Création de l'archive $(ZIP_NAME) avec 'avr/' à la racine …"
+	@echo " Création de l'archive $(ZIP_NAME) avec 'avr/' à la racine …"
 	mkdir -p $(BUILD_DIR)
 	cd $(CORE_DIR)/.. && zip -r "$(abspath $(ZIP_PATH))" avr
 
 
 json: zip
-	@echo "🧾 Génération du fichier JSON d’index pour l’IDE Arduino…"
+	@echo " Génération du fichier JSON d’index pour l’IDE Arduino…"
 	$(eval SIZE := $(shell stat -c%s "$(ZIP_PATH)"))
 	$(eval CHECKSUM := $(shell sha256sum "$(ZIP_PATH)" | cut -d ' ' -f 1))
 	mkdir -p $(BUILD_DIR)
@@ -65,8 +65,7 @@ json: zip
 	@echo '    }' >> $(INDEX_FILE)
 	@echo '  ]' >> $(INDEX_FILE)
 	@echo '}' >> $(INDEX_FILE)
-	@echo "✅ Fichier JSON généré : $(INDEX_FILE)"
+	@echo " Fichier JSON généré : $(INDEX_FILE)"
 
 clean:
 	rm -rf $(BUILD_DIR)
-
