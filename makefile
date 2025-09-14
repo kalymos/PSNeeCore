@@ -4,7 +4,7 @@
 
 MAINTAINER := kalymnos
 ARCH := avr
-CORE_NAME := PSNeeCore
+CORE_NAME := psneecore
 
 BUILD_DIR := release
 CORE_DIR := PSNeeCore/avr
