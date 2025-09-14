@@ -1,6 +1,6 @@
 # Platform configuration for PSNeeCore AVR
 name=PSNeeCore
-version=1.3.4
+version=1.3.6
 architecture=psneecore
 
 ###############################################################################
