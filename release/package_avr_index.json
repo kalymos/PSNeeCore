@@ -1,16 +1,18 @@
 {
   "packages": [
     {
-      "name": "kalymnos",
+      "name": "PSNeeCore",
+      "maintainer": "kalymnos",
+      "URL_GIT": "https://github.com/kalymos/PSNeeCore",
       "platforms": [
         {
           "name": "PSNeeCore",
-          "architecture": "psneecore",
-          "version": "1.3.4",
+          "architecture": "avr",
+          "version": "1.3.5",
           "category": "Contributed",
-          "url": "https://kalymos.github.io/PSNeeCore/release/psneecore-1.3.4.zip",
-          "archiveFileName": "psneecore-1.3.4.zip",
-          "checksum": "SHA-256:367aaeb0aae79fea9b1fa42f8ad7e1ec67808708afd5678286952b4f5b75e68e",
+          "url": "https://kalymos.github.io/PSNeeCore/release/avr-1.3.5.zip",
+          "archiveFileName": "avr-1.3.5.zip",
+          "checksum": "SHA-256:2e46847c7563967acee748e2a3ba962890dc56c5a65b2e3083dc3f2ecb89a91f",
           "size": 26932,
           "boards": [
             {"name": "ATmega328"},

@@ -2,12 +2,13 @@
 
 # ------------------- Paramètres de base -------------------
 
-PACKAGER := kalymnos
-ARCH := psneecore
+MAINTAINER := kalymnos
+ARCH := avr
 CORE_NAME := PSNeeCore
 
 BUILD_DIR := release
 CORE_DIR := PSNeeCore/avr
+URL_GIT := https://github.com/kalymos/PSNeeCore
 
 # Si VERSION n’est pas défini en ligne de commande, on le demande à l’utilisateur
 ifndef VERSION
@@ -44,7 +45,9 @@ json: zip
 	@echo '{' > $(INDEX_FILE)
 	@echo '  "packages": [' >> $(INDEX_FILE)
 	@echo '    {' >> $(INDEX_FILE)
-	@echo '      "name": "$(PACKAGER)",' >> $(INDEX_FILE)
+	@echo '      "name": "$(CORE_NAME)",' >> $(INDEX_FILE)
+	@echo '      "maintainer": "$(MAINTAINER)",' >> $(INDEX_FILE)
+	@echo '      "URL_GIT": "$(URL_GIT)",' >> $(INDEX_FILE)
 	@echo '      "platforms": [' >> $(INDEX_FILE)
 	@echo '        {' >> $(INDEX_FILE)
 	@echo '          "name": "$(CORE_NAME)",' >> $(INDEX_FILE)
