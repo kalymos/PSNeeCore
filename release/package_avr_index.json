@@ -8,10 +8,10 @@
         {
           "name": "PSNeeCore",
           "architecture": "avr",
-          "version": "1.3.5",
+          "version": "1.3.6",
           "category": "Contributed",
-          "url": "https://kalymos.github.io/PSNeeCore/release/avr-1.3.5.zip",
-          "archiveFileName": "avr-1.3.5.zip",
+          "url": "https://kalymos.github.io/PSNeeCore/release/avr-1.3.6.zip",
+          "archiveFileName": "avr-1.3.6.zip",
           "checksum": "SHA-256:2e46847c7563967acee748e2a3ba962890dc56c5a65b2e3083dc3f2ecb89a91f",
           "size": 26932,
           "boards": [
