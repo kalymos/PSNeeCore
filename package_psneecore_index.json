@@ -12,8 +12,8 @@
           "category": "Contributed",
           "url": "https://kalymos.github.io/PSNeeCore/PSNeeCore-2.0.0.tar.gz",
           "archiveFileName": "PSNeeCore-2.0.0.tar.gz",
-          "checksum": "1224648fedac8dff0f50582fb5044a7469b211a2a33a7a0cedfabe49a5d3b82e",
-          "size": "1221140",
+          "checksum": "c2fb40006067afbf1270814dc61b1b6244ab5592d6a7963cf16f5983ef126d1c",
+          "size": "2472498",
           "boards": [
             {"name": "ATmega328"},
             {"name": "ATmega168"},

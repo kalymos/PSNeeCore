@@ -4,8 +4,8 @@
 # For more info:
 # https://arduino.github.io/arduino-cli/latest/platform-specification/
 
-name=PSNeeCore_2.0.12
-version=2.0.12
+name=PSNeeCore
+version=2.0.00
 
 # AVR compile variables
 # ---------------------
