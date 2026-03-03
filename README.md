@@ -1,2 +1,2 @@
 # PSNeeCore
-Arduino board manger, specifically configured for PSNee
+Arduino board manger, specifically configured for PSNee.
