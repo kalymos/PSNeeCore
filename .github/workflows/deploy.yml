@@ -1,4 +1,4 @@
- name: Deploy PSNeeCore to GitHub Pages
+name: Deploy PSNeeCore to GitHub Pages
 
 on:
   push:
