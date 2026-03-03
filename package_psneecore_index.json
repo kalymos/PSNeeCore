@@ -6,14 +6,14 @@
       "websiteURL": "https://github.com",
       "platforms": [
         {
-          "name": "PSNeeCore AVR Boards",
+          "name": "PSNeeCore",
           "architecture": "avr",
-          "version": "2.0.0",
+          "version": "2.0.1",
           "category": "Contributed",
-          "url": "https://kalymos.github.io/PSNeeCore/PSNeeCore-2.0.0.tar.gz",
+          "url": "https://kalymos.github.io/PSNeeCore/PSNeeCore-2.0.1.tar.gz",
           "archiveFileName": "PSNeeCore-2.0.0.tar.gz",
-          "checksum": "c2fb40006067afbf1270814dc61b1b6244ab5592d6a7963cf16f5983ef126d1c",
-          "size": "2472498",
+          "checksum": "5365d53e1caea0eab606a741ee0bac72660973f4fbe00d0169c2804c13ad83eb",
+          "size": "2472479",
           "boards": [
             {"name": "ATmega328"},
             {"name": "ATmega168"},
